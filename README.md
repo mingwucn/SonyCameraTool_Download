@@ -5,9 +5,9 @@
 [![Theme](https://img.shields.io/badge/UI-Morandi%20Aesthetic-8a5757.svg)](https://github.com/mingwucn/SonyCameraTool_Download)
 [![Language](https://img.shields.io/badge/Language-English%20%7C%20%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-363a44.svg)](https://github.com/mingwucn/SonyCameraTool_Download)
 
-**Sony Camera Tool** 是专为索尼 **α6700 (ILCE-6700 · Ver 2.00)** 与 **A7CR (ILCE-7CR · Ver 2.01)** 微单相机打造的多机型一体化桌面实用工具。提供原生英文/多语言菜单解锁、完整 FTP 生态功能解锁、以及一键安全出厂状态还原。
+**Sony Camera Tool** 是专为索尼 **α6700 (ILCE-6700 · Ver 2.00)** 与 **A7CR (ILCE-7CR · Ver 2.01)** 微单相机打造的多机型一体化工具。提供原生英文/多语言菜单解锁、完整 FTP 生态功能解锁、以及一键安全出厂状态还原。
 
-采用低饱和**莫兰迪质感色系 (Morandi Palette)**，内嵌思源黑体 (Noto Sans SC) 矢量字体与 Windows Per-Monitor V2 高分屏硬件抗锯齿渲染，支持中英双语一键无缝实时切换。
+
 
 ---
 
