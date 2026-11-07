@@ -21,7 +21,7 @@ Designed with a tranquil **Morandi color palette**, embedded Noto Sans SC vector
 
 | File | Size | Description | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- |
-| [**SonyCameraTool_v1.0.0.zip**](https://github.com/mingwucn/SonyCameraTool_Download/releases/download/v1.0.0/SonyCameraTool_v1.0.0.zip) | ~22.2 MB | Standalone portable Windows package (includes runtime) | `497619416aa8b581938e8856326bbab4861a9ed871bdf7e0aa4296cf8169a5df` |
+| [**SonyCameraTool_v1.0.0.zip**](https://github.com/mingwucn/SonyCameraTool_Download/releases/download/v1.0.0/SonyCameraTool_v1.0.0.zip) | ~22.2 MB | Standalone portable Windows package (includes runtime) | `d6bd57ea6fcba74aafa5ddd5a81abebea480487294da464c9211e4ef9063402f` |
 
 ### Quick Start
 1. Download `SonyCameraTool_v1.0.0.zip`.
@@ -75,3 +75,15 @@ After the tool displays "Operation Succeeded", follow these steps:
 3. Select your preferred key (e.g. C1 or Trash/Delete button).
 4. Assign the function: **`FTP Trans. (This Img.)`**.
 5. Done! During photo/video playback, pressing that key will immediately transfer the item via FTP.
+
+---
+
+## 🛠️ Diagnostic Logs & Debugging Support
+
+If you encounter camera detection issues, USB driver errors, or unexpected operation failures, the tool includes a comprehensive persistent session logging system:
+
+1. **📋 Copy Log**: Click the "Copy Log" button on the console toolbar to instantly copy all execution output to your system clipboard, ready to paste in GitHub Issues or bug reports.
+2. **📁 Open Log Folder**: Click to reveal the logging directory in Windows File Explorer (located at `<tool_dir>\logs\` or `%LOCALAPPDATA%\SonyCameraTool\logs`). Timestamped logs (`sony_camera_tool_YYYYMMDD_HHMMSS.log`) and the latest session (`sony_camera_tool_latest.log`) are stored automatically.
+3. **💾 Export Log...**: Click to choose a custom save destination (`.txt`) for the current session log.
+
+> **Privacy & Security**: Logs record only OS version, DPI scale, USB PnP device connection state transitions, and Python error tracebacks. **No** IP addresses, WBI flash dumps, serial numbers, or sensitive data are ever recorded.

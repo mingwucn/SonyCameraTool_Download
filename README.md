@@ -21,7 +21,7 @@
 
 | 文件名 (File) | 大小 (Size) | 说明 (Description) | SHA256 校验码 (Checksum) |
 | :--- | :--- | :--- | :--- |
-| [**SonyCameraTool_v1.0.0.zip**](https://github.com/mingwucn/SonyCameraTool_Download/releases/download/v1.0.0/SonyCameraTool_v1.0.0.zip) | ~22.2 MB | 绿色免安装完整版 (包含可执行程序及内置运行时) | `497619416aa8b581938e8856326bbab4861a9ed871bdf7e0aa4296cf8169a5df` |
+| [**SonyCameraTool_v1.0.0.zip**](https://github.com/mingwucn/SonyCameraTool_Download/releases/download/v1.0.0/SonyCameraTool_v1.0.0.zip) | ~22.2 MB | 绿色免安装完整版 (包含可执行程序及内置运行时) | `d6bd57ea6fcba74aafa5ddd5a81abebea480487294da464c9211e4ef9063402f` |
 
 ### 快速开始 (Quick Start)
 1. 点击上方链接下载 `SonyCameraTool_v1.0.0.zip`。
@@ -78,6 +78,18 @@
 3. 选择顺手的按键（推荐：`C1 键`、`垃圾桶/删除键` 或 `AF-ON 键`）。
 4. 将该按键功能指定为：**“FTP传输(本图像)”**。
 5. 完成！在浏览照片或视频时，按一下该按键即可立刻把当前图像加入 FTP 传输队列。
+
+---
+
+## 🛠️ 故障排查与诊断日志发送 (Diagnostic Logs & Debugging)
+
+如果在使用过程中遇到任何相机识别、连接异常或操作报错，软件内置了全自动会话日志记录与一键导出功能，您可以直接将日志发送给开发者进行分析：
+
+1. **📋 复制日志 (Copy Log)**: 点击控制台下方的【复制日志】按钮，完整运行记录将一键复制至系统剪贴板，可直接在 GitHub Issue、微信或邮件中快捷粘贴发送。
+2. **📁 打开日志目录 (Open Log Folder)**: 点击后直接在 Windows 文件资源管理器中定位日志文件夹。软件会在程序运行目录的 `logs/` 下（或 `%LOCALAPPDATA%\SonyCameraTool\logs`）自动按时间戳保存每次运行的 `.log` 文本文件以及最新会话文件 `sony_camera_tool_latest.log`。
+3. **💾 导出日志... (Export Log...)**: 点击弹出“另存为”对话框，可将当前日志自定义保存为 `.txt` 文件以便随时打包发送。
+
+> **隐私与安全保护**：诊断日志仅包含操作系统版本、DPI 缩放、USB PnP 设备识别状态与操作错误堆栈，**绝不记录**任何局域网 IP、WBI 原始数据、设备序列号或敏感凭据。
 
 ---
 
