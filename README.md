@@ -21,7 +21,7 @@
 
 | 文件名 (File) | 大小 (Size) | 说明 (Description) | SHA256 校验码 (Checksum) |
 | :--- | :--- | :--- | :--- |
-| [**SonyCameraTool_v1.0.0.zip**](https://github.com/mingwucn/SonyCameraTool_Download/releases/download/v1.0.0/SonyCameraTool_v1.0.0.zip) | ~22.2 MB | 绿色免安装完整版 (包含可执行程序及内置运行时) | `d6bd57ea6fcba74aafa5ddd5a81abebea480487294da464c9211e4ef9063402f` |
+| [**SonyCameraTool_v1.0.0.zip**](https://github.com/mingwucn/SonyCameraTool_Download/releases/download/v1.0.0/SonyCameraTool_v1.0.0.zip) | ~32.1 MB | 绿色免安装完整版 (包含可执行程序、内置运行时及原生物理写入载荷) | `6c02eb670a95f6fcf7377b3ae863ef3466a6289ffd4df28f336108368addf127` |
 
 ### 快速开始 (Quick Start)
 1. 点击上方链接下载 `SonyCameraTool_v1.0.0.zip`。

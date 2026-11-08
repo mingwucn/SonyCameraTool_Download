@@ -1,13 +1,13 @@
 {
   "name": "SonyCameraTool",
   "version": "1.0.0",
-  "built_at": "2026-11-07T13:30:46.663891+00:00",
+  "built_at": "2026-11-08T03:25:48.409085+00:00",
   "git": {
-    "commit": "d1d10f04e10b414cd08c55ba9d43e01fdedacd54",
+    "commit": "26fdbf1a3ac570f85d8a71aa512f50583521c1da",
     "branch": "work/sony-camera-tool",
     "dirty": true
   },
-  "exe_size": 1430790,
-  "zip_size": 22227866,
-  "zip_sha256": "d6bd57ea6fcba74aafa5ddd5a81abebea480487294da464c9211e4ef9063402f"
+  "exe_size": 3702394,
+  "zip_size": 32089963,
+  "zip_sha256": "6c02eb670a95f6fcf7377b3ae863ef3466a6289ffd4df28f336108368addf127"
 }

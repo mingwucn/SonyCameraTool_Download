@@ -21,7 +21,7 @@ Designed with a tranquil **Morandi color palette**, embedded Noto Sans SC vector
 
 | File | Size | Description | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- |
-| [**SonyCameraTool_v1.0.0.zip**](https://github.com/mingwucn/SonyCameraTool_Download/releases/download/v1.0.0/SonyCameraTool_v1.0.0.zip) | ~22.2 MB | Standalone portable Windows package (includes runtime) | `d6bd57ea6fcba74aafa5ddd5a81abebea480487294da464c9211e4ef9063402f` |
+| [**SonyCameraTool_v1.0.0.zip**](https://github.com/mingwucn/SonyCameraTool_Download/releases/download/v1.0.0/SonyCameraTool_v1.0.0.zip) | ~32.1 MB | Standalone portable Windows package (includes runtime & physical payloads) | `6c02eb670a95f6fcf7377b3ae863ef3466a6289ffd4df28f336108368addf127` |
 
 ### Quick Start
 1. Download `SonyCameraTool_v1.0.0.zip`.
