@@ -1,0 +1,229 @@
+{
+  "name": "SonyCameraTool",
+  "version": "1.0.1",
+  "built_at": "2026-11-19T18:21:40.668098+00:00",
+  "git": {
+    "commit": "c01e204a76c78334727d04b5ff97b11ad5f1a2d7",
+    "branch": "codex/ftp001-playback-shortcut-candidate-0.8.0",
+    "dirty": true,
+    "working_tree_diff_sha256": "57d1edacd948d085e5476420f0c425421e3a500fc247114c839e02486699d796"
+  },
+  "build_environment": {
+    "python": "3.10.20",
+    "pyinstaller": "6.22.3"
+  },
+  "exe_size": 3702568,
+  "exe_sha256": "63be9cbda6a8a510c3a92f53154d3e901b7ab462e428ad94dfb6fb66947c8a81",
+  "frozen_checks": [
+    "--self-check",
+    "--describe",
+    "--gui-self-check"
+  ],
+  "bundled_payloads": {
+    "repository": "mingwucn/SonyCameraTool_Download",
+    "tag": "v1.0.0",
+    "archive_sha256": "6c02eb670a95f6fcf7377b3ae863ef3466a6289ffd4df28f336108368addf127",
+    "files": [
+      {
+        "path": "libusb-1.0.dll",
+        "sha256": "62ccefaf3f99dc46f6739f803391958cf77c8bc9cb5cf44acda8512709a404db"
+      },
+      {
+        "path": "native/dump_manifest.json",
+        "sha256": "5d58422cf799ebfe2c8673d80840da8294359b69297de4f8266d69baab66a424"
+      },
+      {
+        "path": "native/dump_range.elf",
+        "sha256": "ff46f66262b03a349dd560eb508e067d61e74bfcedefaa98a20311258468ea79"
+      },
+      {
+        "path": "native/flash_manifest.json",
+        "sha256": "090f1471fa04a6acb90c41fc6436d8660beefcfe7409b363b18b9e6d285199b9"
+      },
+      {
+        "path": "native/flash_write.elf",
+        "sha256": "94b45897f48b26d606cc41d2b3fee3e74bd1c767a3eef0553c57df246d022c6c"
+      },
+      {
+        "path": "native/ftp_wbi_experimental.elf",
+        "sha256": "08c027b87e20f8265fc278b101c22e799f017ab54f7b9857aa947c3e193bea23"
+      },
+      {
+        "path": "third_party/a6700_unlock/__init__.py",
+        "sha256": "75402e1421a79f500faab8a066cf568719826bc2f091dd8846d666a70bbf37f3"
+      },
+      {
+        "path": "third_party/a6700_unlock/__main__.py",
+        "sha256": "482b8693e2fe6dbd732e3d7961e03827d3efa187bad11d29da188be580ebbeea"
+      },
+      {
+        "path": "third_party/a6700_unlock/backup.py",
+        "sha256": "fabb327050d85c7b6870faf734dbc82f6df8af002aa77d7db28bb2732b497a1f"
+      },
+      {
+        "path": "third_party/a6700_unlock/bundled.py",
+        "sha256": "f2f9d109c7851c8a78adee060ec7db094e557c80955c92bc290d8d4bad774c3d"
+      },
+      {
+        "path": "third_party/a6700_unlock/catalog.py",
+        "sha256": "a62501e5ba6990809e4b924acd7b541fc3c049f0e5731e29531fecf333dc052a"
+      },
+      {
+        "path": "third_party/a6700_unlock/cli.py",
+        "sha256": "57dea80b69a3bc7e8236de5bccdc2d122ece14a96e523c31bb8f283b405607ec"
+      },
+      {
+        "path": "third_party/a6700_unlock/data/a6700-2.00.json",
+        "sha256": "466a6777913b71398ea501c3c9f4ac0c29b9e73791227c4d906320cb9f15a881"
+      },
+      {
+        "path": "third_party/a6700_unlock/data/device-profile.json",
+        "sha256": "d28baa39905683f7f67e196eae90f462dadd93f81247cd56c3d3b570838ff3ae"
+      },
+      {
+        "path": "third_party/a6700_unlock/data/legal/LICENSE.txt",
+        "sha256": "19ff9397ce5eb60fc6f359ad0453874801d6a269980125fa25778bdeefdfc8dd"
+      },
+      {
+        "path": "third_party/a6700_unlock/data/legal/NOTICE.txt",
+        "sha256": "7a279f731b2213f61c59d976c078b602a6a31d9e97c0ae665cb46735a848d9a1"
+      },
+      {
+        "path": "third_party/a6700_unlock/data/legal/THIRD_PARTY_NOTICES.md",
+        "sha256": "96559b4a01a11f5d67a66cc035647a15dbc1c356ab31dd315898ea98f8a23331"
+      },
+      {
+        "path": "third_party/a6700_unlock/data/native/manifest.json",
+        "sha256": "667e736cd73e7eb417ae66419193a41c78d42941162d04af257f2285a14b4a8d"
+      },
+      {
+        "path": "third_party/a6700_unlock/data/native/reader.elf",
+        "sha256": "88491c37c20fa4324023613e1980fd970adf79dd44ad4d7771afa43b9c9e4ece"
+      },
+      {
+        "path": "third_party/a6700_unlock/data/native/writer.elf",
+        "sha256": "17d852656848faefae6743ebc79456c3d2d0212c7f0058311145a4954a8255a4"
+      },
+      {
+        "path": "third_party/a6700_unlock/desktop/__init__.py",
+        "sha256": "83a03bdbddd44b86c59c068b88c9151d340f522cfbc699c72d17e4319631eebf"
+      },
+      {
+        "path": "third_party/a6700_unlock/desktop/aftercare.py",
+        "sha256": "fc9506432708ad477210ee51e97fa8e3361aa288e3efb0774327a57c38195efb"
+      },
+      {
+        "path": "third_party/a6700_unlock/desktop/bridge.py",
+        "sha256": "81c89767fff37429d17a36df726b8b58b2a24b9e1f3d9e7161dde0103e98d6a4"
+      },
+      {
+        "path": "third_party/a6700_unlock/desktop/controller.py",
+        "sha256": "0c2b617a360035dbb93c82d57a044e6c70645d778d1b7347cf2de8c2aa988396"
+      },
+      {
+        "path": "third_party/a6700_unlock/desktop/physical.py",
+        "sha256": "404744a15a52537e01addc8e6a6795fbab75c41989ddec7774394ce4a72a734f"
+      },
+      {
+        "path": "third_party/a6700_unlock/desktop/physical_bridge.py",
+        "sha256": "886268270c199261459dec8f9ee7411f15aafd5994b45cfde7bc8c530bc1c70b"
+      },
+      {
+        "path": "third_party/a6700_unlock/desktop/simulation.py",
+        "sha256": "79e1e38739d5285addbd958be6eb49eb0f822c695c6687328f35ed94d8acba2c"
+      },
+      {
+        "path": "third_party/a6700_unlock/device_profile.py",
+        "sha256": "a9f316c2ec2d14a92c9d85beedd3993de60f4c620623426292da251e0b559d32"
+      },
+      {
+        "path": "third_party/a6700_unlock/device_protocol.py",
+        "sha256": "aa313654e54e2b01de55a215748cdd5150cde0a6162ee533e1f8c1e5ee2bd0d3"
+      },
+      {
+        "path": "third_party/a6700_unlock/doctor.py",
+        "sha256": "76ac76ab9eb37008fd7d15ea88c4a083439fb41e251991eea0462ad9240842aa"
+      },
+      {
+        "path": "third_party/a6700_unlock/LICENSE",
+        "sha256": "19ff9397ce5eb60fc6f359ad0453874801d6a269980125fa25778bdeefdfc8dd"
+      },
+      {
+        "path": "third_party/a6700_unlock/licensing.py",
+        "sha256": "e6150536f57ba84c3c862567b897344213ad778c707670d25967f1d53d04f79e"
+      },
+      {
+        "path": "third_party/a6700_unlock/native/mac_capture.m",
+        "sha256": "359151a6440819e6b53b57d9e62504b1e01383634e2a1c86b0567d175eaa013d"
+      },
+      {
+        "path": "third_party/a6700_unlock/native/transaction.c",
+        "sha256": "f21342ab22688f98455e03d93a7fca9fc29a420cd6757e445496c21fa8bb60ef"
+      },
+      {
+        "path": "third_party/a6700_unlock/NOTICE",
+        "sha256": "7a279f731b2213f61c59d976c078b602a6a31d9e97c0ae665cb46735a848d9a1"
+      },
+      {
+        "path": "third_party/a6700_unlock/notice.py",
+        "sha256": "a15662c10b8991e257370d358b61f2805a256a75ca120290b21422191ecd3bcb"
+      },
+      {
+        "path": "third_party/a6700_unlock/operations.py",
+        "sha256": "57044b1eddaf1f1c8224bca20213d09dad62e3f1d057ac3d2cae27f685b88962"
+      },
+      {
+        "path": "third_party/a6700_unlock/planner.py",
+        "sha256": "9f057ac8666fba8d296e12e47536510ab53aaa462de65d5fbc36c4cfd1fd1137"
+      },
+      {
+        "path": "third_party/a6700_unlock/preparation.py",
+        "sha256": "ba44d120aae262b354bd38551fb2e85757984e7db4b0e73cc2568656760a654a"
+      },
+      {
+        "path": "third_party/a6700_unlock/THIRD_PARTY_NOTICES.md",
+        "sha256": "96559b4a01a11f5d67a66cc035647a15dbc1c356ab31dd315898ea98f8a23331"
+      },
+      {
+        "path": "third_party/a6700_unlock/usb/__init__.py",
+        "sha256": "9efafa69a73c90da75a003c17f6959b8e3a93dd8a33ae1de7a0613dd4021d3ac"
+      },
+      {
+        "path": "third_party/a6700_unlock/usb/backend.py",
+        "sha256": "668d9d89320af94dcef7ca99e7560579e3136cbed6b86ef684b3804663279158"
+      },
+      {
+        "path": "third_party/a6700_unlock/usb/legacy.py",
+        "sha256": "13dc51d9ae6b5c8982ba36101d98b43822b08fdc98d0f67a3599367517bb1e31"
+      },
+      {
+        "path": "third_party/a6700_unlock/usb/packet_builder.py",
+        "sha256": "a0147447eabc3400f628be0c42b69b69fdb2614eb300349eba137b7dfa26ca99"
+      },
+      {
+        "path": "third_party/a6700_unlock/usb/reference/sony_pmca/constants.py",
+        "sha256": "345f0184fe0127b61cd8ef6f861c513e43468b6f8f926304eda960450870a912"
+      },
+      {
+        "path": "third_party/a6700_unlock/usb/reference/sony_pmca/crypto.py",
+        "sha256": "4cae5195d85d20142f674c7073c7c5ae34c10b39fb834a6851f0b77fc55236b5"
+      },
+      {
+        "path": "third_party/a6700_unlock/usb/reference/sony_pmca/LICENSE-python-sha1.txt",
+        "sha256": "99f54e3660a29233cbe94fb2fda0e339769fb4e25608b0c457553bda01ca5be4"
+      },
+      {
+        "path": "third_party/a6700_unlock/usb/reference/sony_pmca/LICENSE.txt",
+        "sha256": "f40fa84ebd3c1329fc6f4b75c11af9df6b19ae9a0485a02e85a5eeb476fcd94e"
+      },
+      {
+        "path": "third_party/libwdi/wdi-simple.exe",
+        "sha256": "27b6d9847d874674b7c412af124acf64b0b1efa397e3bbea8eab9950a6a08ee0"
+      }
+    ],
+    "file_count": 49
+  },
+  "zip_file": "SonyCameraTool_v1.0.1.zip",
+  "zip_size": 32106759,
+  "zip_sha256": "79bbc64148f88c2bb974d40420910035696e0af87fe3cd83ab3e9d3f3f4ec419"
+}

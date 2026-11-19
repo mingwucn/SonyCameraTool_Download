@@ -1,0 +1,2 @@
+79bbc64148f88c2bb974d40420910035696e0af87fe3cd83ab3e9d3f3f4ec419  SonyCameraTool_v1.0.1.zip
+efaaa10b22b5724fb0b9658aa8c449732ee6bc6e2eb1098b3fcf23b78e4bd5ed  SonyCameraTool_v1.0.1_BUILD_MANIFEST.json
